@@ -45,7 +45,7 @@ header p {
 }
 
 section {
-  background:url(/images/cover.jpg);
+  background:url(images/cover.jpg);
   height:50vh;
   width: 100%;
   -webkit-background-size: cover;
