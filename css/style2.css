@@ -2,7 +2,9 @@
   display: grid;
   border: 2px dashed rgba(114, 186, 94, 0.35);
   height: 150px;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-gap: 1em;
+  grid-template-columns: repeat(3, minmax(1px, 100%));
   grid-template-rows: auto;
   justify-items: center;
   background: rgba(114, 186, 94, 0.05);
