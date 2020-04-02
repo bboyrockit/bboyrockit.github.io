@@ -1,8 +1,8 @@
 /*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
+* 
+* 
+* 
+* 
 */
 
 
@@ -385,7 +385,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #fc1559;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -435,18 +435,18 @@ h5 {
 
 .box-intro em {
     font-style: normal;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #fc1559!important;
 }
 
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #999;
-    line-height: 1.7
+    line-height: 1.7;
 }
 
 
