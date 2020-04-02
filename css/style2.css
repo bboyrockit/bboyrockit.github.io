@@ -28,4 +28,5 @@
 .text-ps2{
  display: grid;
  justify-items: center;
+ padding-bottom:30px;
 }
