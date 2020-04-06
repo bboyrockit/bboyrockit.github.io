@@ -18,7 +18,7 @@
 
 .text-ps{
   display: flex;
-  font-size: 1.5em;
+  font-size: 3em;
   color: #5c5c5c;
   padding: 15px;
   text-align: justify;
@@ -31,3 +31,135 @@
  justify-items: center;
  padding-bottom:30px;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+body {
+	margin: 0px;
+}
+
+#circle-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	width: 70vw;
+	height: 70vh;
+	position: relative;
+}
+
+.circle {
+	width: 50vh;
+	height: 50vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#one:before {
+  content: "Mira Mi Portfolio";
+  cursor: pointer;
+}
+
+#one {
+	background-color: rgba(0, 0, 225, 0.45);
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 1.5px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	transition: 1s;
+}
+
+#two {
+	background-color: green;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#three {
+	background-color: red;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#four {
+	background-color: orange;
+	transition: 1s;
+	opacity: 0.5;
+}
+#five {
+	background-color: green;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#cc {
+	position: relative;
+	width: 50vh;
+	height: 50vh;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#cc:hover #two {
+	transform: translate(0px, 75px);
+}
+#cc:hover #three {
+	transform: translate(0px, -75px);
+}
+#cc:hover #four {
+	transform: translate(75px, 0px);
+}
+#cc:hover #five {
+	transform: translate(-75px, 0px);
+}
+
+#mb {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 0.5px;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	background-color: #3b3a6d;
+	color: white;
+}
+
+#mb a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px;
+}
+
+#mb p {
+	padding: 5px;
+	margin: 0px;
+}
+
+/* ------------Responsive Media -------------*/
+
+@media only screen and (max-width: 670px) {
+  .text-ps{
+    display: flex;
+    font-size: 1.5em;
+    color: #5c5c5c;
+    padding: 15px;
+    text-align: justify;
+    padding: 5px 2.5em;
+    justify-content: center;
+  }
+
+  .box-intro , .table-cell {
+    display:grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-auto-rows: auto;
+  }
+
+
+}  
