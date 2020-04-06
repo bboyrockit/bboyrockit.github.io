@@ -154,12 +154,12 @@ body {
     justify-content: center;
   }
 
-  .box-intro {
+  /* .box-intro {
     display:flex;
     margin-top: 50px;
     margin-bottom: 50px;
     grid-auto-rows: auto;
-  }
+  } */
 
   /* .circle {
     width: 50vh;
