@@ -161,6 +161,14 @@ body {
     grid-auto-rows: auto;
   }
 
+  .circle {
+    width: 50vh;
+    height: 50vh;
+    position: absolute;
+    border-radius: 50%;
+    display:flex;
+  }
+  
   #one {
     background-color: rgba(0, 0, 225, 0.45);
     font-size: 1.5em;
