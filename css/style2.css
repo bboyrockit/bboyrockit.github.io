@@ -155,7 +155,7 @@ body {
   }
 
   .box-intro {
-    display:grid;
+    display:flex;
     margin-top: 50px;
     margin-bottom: 50px;
     grid-auto-rows: auto;
