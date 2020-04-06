@@ -169,7 +169,7 @@ body {
     display:flex;
   } */
   
-  #one.circle {
+  /* #one.circle {
     background-color: rgba(0, 0, 225, 0.45);
     font-size: 1.5em;
     font-family: "Oswald", sans-serif;
@@ -180,7 +180,7 @@ body {
     color: white;
     font-weight: bold;
     transition: 1s;
-  }
+  } */
 
 /* end of Responsive Media */
 
