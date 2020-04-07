@@ -16,6 +16,17 @@
   color: #5c5c5c;
 }
 
+.contactInfo {
+	display: flex;
+	color: hsl(240, 2%, 57%);
+	line-height: 1.2;
+	font-size: 1.5em;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+}
+
 .text-ps{
   display: flex;
   font-size: 3em;
