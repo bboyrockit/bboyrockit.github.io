@@ -1,5 +1,5 @@
 <?php
- if (isset($_POST['submit'])) {
+ if (filter_has_var(INPUT_POST, 'submit')) {
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     $mailFrom = $_POST['mail'];
