@@ -1,0 +1,24 @@
+h6 {
+  color: white;
+  padding-bottom: 20px; 
+}
+
+.banner-txt h3 {
+  line-height: 2px;
+  padding-bottom: 20px;
+}
+
+.banner-txt h4 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+div .bow-btns {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
